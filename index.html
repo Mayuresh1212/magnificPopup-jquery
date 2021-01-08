@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+        integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+
+    <div class="container w-100 h-100">
+        <div class="py-2">
+            <h1 class="text-uppercase text-center display-3">
+                My gallery
+            </h1>
+            <hr class="text-center w-25 border-dark">
+        </div>
+        <div class="row no-gutters gallerys pb-20">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-12 ">
+                <a href="images/bg.jpg" target="_blank">
+                    <img class="img-fluid" src="images/bg.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                <a href="images/disc.jpg" target="_blank">
+                    <img class="img-fluid" src="images/disc.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                <a href="images/bg1.jpg" target="_blank">
+                    <img class="img-fluid" src="images/bg1.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                <a href="images/pexels-valeria-boltneva-14107.jpg" target="_blank">
+                    <img class="img-fluid" src="images/pexels-valeria-boltneva-14107.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                <a href="images/pexels-matheus-guimarães-1291712.jpg" target="_blank">
+                    <img class="img-fluid" src="images/pexels-matheus-guimarães-1291712.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                <a href="images/pexels-valeria-boltneva-827513.jpg" target="_blank">
+                    <img class="img-fluid" src="images/pexels-valeria-boltneva-827513.jpg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+        integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
+        crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".gallerys").magnificPopup({
+                type: 'image',
+                delegate: 'a',
+                gallery:{
+                    enabled:true
+                }
+            })
+        });
+    </script>
+</body>
+
+</html>
